@@ -12,7 +12,7 @@ Dive::Application.routes.draw do
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
-
+  
   # Sample resource route with options:
   #   resources :products do
   #     member do
@@ -31,6 +31,28 @@ Dive::Application.routes.draw do
   #     resource :seller
   #   end
 
+  resources :photographers do 
+  end
+
+  resources :viewers do 
+    collection do
+      get 'viewer'
+    end
+  end
+  
+  resources :photos do
+    member do 
+      get 'delete'
+    end
+  end
+
+  resources :admin do
+    collection do
+       post 'login'
+     end
+   end
+
+
   # Sample resource route with more complex sub-resources
   #   resources :products do
   #     resources :comments
@@ -48,7 +70,8 @@ Dive::Application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # just remember to delete public/index.html.
-  # root :to => "welcome#index"
+
+  root :to => "index#index"
 
   # See how all your routes lay out with "rake routes"
 

@@ -1,6 +1,9 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.1'
+gem 'mysql'
+
+gem 'paperclip', :git => 'git://github.com/michaxze/paperclip.git'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
