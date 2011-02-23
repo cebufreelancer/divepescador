@@ -1,0 +1,9 @@
+<%= link_to "Add Photographer", new_photographer_path %>
+
+<ul>
+<% @photographers.each do |pg|%>
+  <li>
+    <%= pg.fullname rescue '' %>
+  </li>
+<% end %>
+</ul>

@@ -1,0 +1,9 @@
+<% form_for :photographer, :url => photographers_path, :html => {:multipart => true } do |f| %>
+Firstname: 
+<%= f.text_field :firstname, :maxlength => 35 %>
+<br/>
+Lastname: 
+<%= f.text_field :lastname, :maxlength => 35 %>
+<br/>
+<%= submit_tag "Submit" %>
+<% end %>

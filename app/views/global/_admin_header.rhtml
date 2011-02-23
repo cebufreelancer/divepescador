@@ -1,0 +1,21 @@
+<div id="logo">
+  <H1>DIVE PESCADOR</H1>
+</div>
+
+<div id="user_menu">
+  <ul>
+    <li><%= link_to "Login", root_path %> </li>
+    <li><%= link_to "Logout", root_path %> </li>
+  </ul>
+</div>
+
+<div class="clear"></div>
+
+<% if session[:user] %>
+  <%= link_to "Photos", photos_path %> | 
+  <%= link_to "Photographer", photographers_path %>
+
+  <div class="clear"></div>
+  <br/>
+
+<% end %>

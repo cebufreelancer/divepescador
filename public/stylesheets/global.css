@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+  background-color: #f0f0f0;
+  font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
+  font-size: 13px;
+  color: #333;
+}
+
+#logo {
+  float: left;
+}
+
+#user_menu {
+  float: right;
+  margin-top: 15px;
+}
+#user_menu ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+#user_menu ul li {
+  list-style: none;
+  float: left;
+}
+#user_menu ul li a {
+  padding-right: 10px;
+}
+
+h1 {
+  font-size: 28px;
+  color: #000;
+}
+
+h2 {
+  font-size: 15px;
+  color: #000;
+	margin-top: 2em;
+	margin-bottom: 0.5em;
+}
+
+a  {color: #03c}
+
+a:hover {
+  background-color: #03c;
+  color: white;
+  text-decoration: none;
+}
+
+#main {
+  width: 850px;
+  margin: auto;
+  padding: auto;
+}
+
+#footer {
+
+}
+
+#footer ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+#footer ul li {
+  list-style: none;
+  float: left;
+  margin-left: 10px;
+}
+
+#content {
+  min-height: 550px;
+}
+
+.clear {
+  clear: both;
+}
+
+#category_column {
+  min-height: 480px;
+  width: 240px;
+  background-color: #DBDBDB;
+}
+
+#category_column ul {
+  list-style-type: none;
+  padding: 0px;
+}
+#category_column ul li {
+  height: 25px;
+  border-bottom: 1px solid #fff;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+input[type="text"], input[type="password"] {
+  height: 18px;
+  width: 210px;
+}
+
+.mersection {
+  background-color: #f7f7f7;
+  border: 1px solid #e5e5e5;
+  color: #555;
+  margin-right: 20px;
+  padding: 15px;
+  width: 780px;
+}
+.merline {
+  height: 20px;
+  padding: 3px 0px 6px;
+  margin: 0px;
+  text-align: left;
+}
+.merlabel {
+  color: black;
+  margin-left: 20px;
+  padding: 4px 10px 0px 0px;
+  text-align: right;
+  width: 213px;
+  float: left;
+}
+.merfield {
+  float: left;
+  margin: 0px;
+  width: 476px;
+}
+
+.index-images{
+  float: left;
+  width: 190px;
+  padding: 5px;
+}
+
+.photo-description {
+  font-size:11px;
+}
+
+.photo-photographer {
+  font-size: 11px;
+}
+
+.clear {
+  clear: both;
+}
+
+#notice {
+  color: green;
+}
+
+#error {
+  color:red;
+}
